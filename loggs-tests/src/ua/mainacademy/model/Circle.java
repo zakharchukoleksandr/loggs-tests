@@ -1,22 +1,21 @@
-package ua.acedemy.model;
+package ua.mainacademy.model;
 
 public class Circle implements Shape {
 
-private double radius;
+    public int radius;
 
-    public Circle(double radius) {
+    public Circle() {
+    }
+
+    public Circle(int radius) {
         this.radius = radius;
     }
 
-    public Circle() {
-
-    }
-
-    public double getRadius() {
+    public int getRadius() {
         return radius;
     }
 
-    public void setRadius(double radius) {
+    public void setRadius(int radius) {
         this.radius = radius;
     }
 
